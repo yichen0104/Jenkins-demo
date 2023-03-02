@@ -1,4 +1,5 @@
-from jenkins_demo import *
+from jenkins_demo import day_of_week_encoding, clean_ticker, pd
+import numpy as np
 
 def test_clean_ticker():
   def model_stub(company):
@@ -6,7 +7,7 @@ def test_clean_ticker():
     if company == "Apple Inc.": return "AAPL"
   df = pd.DataFrame({'Ticker': [np.nan, np.nan, 'ADSK'], 
                     'Name': ['Adobe Inc.', 'Apple Inc.', 'Autodesk'], 
-                    'Industry': ['Information Technology	', 'Information Technology', 'Application Software'], 
+                    'Industry': ['Information Te`chnology	', 'Information Technology', 'Application Software'], 
                     'Sub-Industry': ['Application Software', 'Technology Hardware, Storage & Peripherals	', 'Application Software'],
                     'Headquarters Location': ['San Jose, California', 'San Francisco, California', 'Cupertino, California'],
                     'Date added': ['5/5/1997', '12/1/1989', '11/30/1982'],
