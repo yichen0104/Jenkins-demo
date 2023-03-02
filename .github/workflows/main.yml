@@ -23,6 +23,9 @@
           - name: Install NumPy
             run: |
               pip install numpy
+          - name: Install Requests
+            run: |
+              pip install requests
           - name: Install pytest
             run: |
               pip install pytest
