@@ -1,3 +1,4 @@
+pip3 --install --upgrade pip
 pip install -r requirements.txt
-pytest -q tests.py
+python -m pytests test.py
 echo "DONE!"
