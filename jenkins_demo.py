@@ -1,7 +1,7 @@
 import pandas as pd 
 import requests
 
-data = pd.read_csv('/content/sp500-constituents.csv')
+data = pd.read_csv('sp500-constituents.csv')
 
 #data manipulation
 def day_of_week_encoding(data):
