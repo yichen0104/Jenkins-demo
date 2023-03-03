@@ -45,7 +45,7 @@ Note: This repository is public, so it does not require credentials
 
 13. In commands, paste the following commands to run pytest
 	
->pip install coverage
+>pytest -v
 >
 >coverage run -m pytest
 >	
