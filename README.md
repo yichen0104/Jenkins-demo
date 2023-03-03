@@ -30,16 +30,17 @@ Skip step 2, 3 for the recitation demo. Already setup.
 	
 	Password: seaidemo23
 
-7. Click on New Item
+7. Click on New Item on top left corner
 
 8. Add name, select Freestyle project and click OK
 	
 9. Configue the project - Add a description
 	
-10. In Source Code Management, select and add repository URL to link to GitHub
+10. In Source Code Management, select Git and add repository URL to link to GitHub
+Note: This repository is public, so it does not require credentials
 	
 11. Under Branches to build, in Branch Specifier replace */master with */main
-	
+		
 12. Under Build Steps, click on Add Build Steps dropdown and select Execute shell
 
 13. In commands, paste the following commands to run pytest
@@ -49,4 +50,17 @@ Skip step 2, 3 for the recitation demo. Already setup.
 >coverage run -m pytest
 >	
 >coverage report
+	
+14. Click Save
+	
+15. Click Build Now from left menu 
+	
+16. In Build History, green tick shows the build is successful. Click on build for details.
+	
+17. Click on Console Output from left menu 
+	
+18. Observe the test cases have passed
+	
+	
+
 	
