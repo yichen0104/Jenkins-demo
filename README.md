@@ -1,6 +1,6 @@
 # Steps for Jenkins installation:
 
-1. Ssh into the virtual machine <username>@<ip-address>
+1. Ssh into the virtual machine
 	
 	ssh seaidemo23@128.2.24.106
 
@@ -60,7 +60,16 @@ Note: This repository is public, so it does not require credentials
 17. Click on Console Output from left menu 
 	
 18. Observe the test cases have passed
+
+# Steps for GitHub Actions:
 	
+1. Click on Actions tab
+
+2. Click on New workflow and then click on set up a workflow yourself
+
+3. Set up yaml file
+
+4. Green ticks signifies successful build
 	
 
 	
